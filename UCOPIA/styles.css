@@ -1,0 +1,38 @@
+/* CSS file placeholder. */
+* {outline: none;}
+body{ margin: 0;
+  font-family: Arial;
+  background-color: rgb(27, 188, 155);
+}
+webview{ width: 0px;
+  height: 0px;
+  overflow: hidden;
+}
+#inputBox{ max-width: 300px;
+  margin: auto;
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: rgb(238, 239, 241);
+}
+#inputs{ display: none; }
+input, button{ display: block;
+  width: 80%;
+  height: 35px;
+  margin: 20px auto;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+}
+input{ color: rgb(179, 191, 200);
+  text-indent: 1em;
+}
+button{ color: white;
+  background-color: rgb(27, 188, 155);
+}
+button:hover{ cursor: pointer; }
+#messageBox{ max-width: 300px;
+  min-height: 30px;
+  margin: auto;
+  text-align: center;
+}

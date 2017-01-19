@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "UCOPIA",
+  "short_name": "UCOPIA",
+  "description": "Connect to a UCOPIA network.",
+
+  "version": "0.0.1.0",
+
+  "icons": {
+    "16": "assets/icon_16.png",
+    "128": "assets/icon_128.png"
+  },
+
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+
+  "permissions": [
+    "webview",
+    "fileSystem"
+  ]
+}
